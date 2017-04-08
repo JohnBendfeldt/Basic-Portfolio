@@ -2,15 +2,46 @@ h1 {
 	background-color: #4AAAA5;
 	display: inline-block;
 	padding: 10px 20px 10px 20px;
-	margin: 0px;
+	margin: 0px auto;
 	font-family: "Georgia", Times, "Times New Roman", serif;
+	margin-left: 60px;
 }
 header {
+	background-color: #FFFFFF;
 	border-bottom: solid 2px #cccccc;
+	margin: 0px auto;
+}
+#container {
+	width: 45%;
+	border: solid 2px #dddddd;
+	padding: 15px 10px 15px 10px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 30px;
+}
+p {
+	display: inline-block;
 }
 #connect {
 	width: 20%;
-	display: inline-block;
-	border: solid 2px #cccccc;
+	border: solid 2px #dddddd;
 	padding: 15px 10px 15px 10px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 60px;
+}
+footer {
+	background-color: #666666;
+	text-align: center;
+	border-top: solid 4px #4AAAA5;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
 }
