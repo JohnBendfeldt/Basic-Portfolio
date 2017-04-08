@@ -6,21 +6,43 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<header>
-	<h1>John Bendfeldt</h1>
-	<a href="index.html">About</a> |
-	<a href="portfolio.html">Porfolio</a> |
-	<a href="contact.html">Contact</a>
-</header>
-<body>
-	<section id="connect">
-		<h3>Connect with Me</h3>
-		<hr>
-		<img src="assets/images/Github-icon.png" height="50px" width="50px">
-		<img src="assets/images/linkedin-icon.png" height="50px" width="50px">
-		<img src="assets/images/stackoverflow-icon.png" height="50px" width="50px">
+	<header>
+		<div id="banner">
+			<h1>John Bendfeldt</h1>
+			<section id="link-box">
+				<a href="index.html">About |</a>
+				<a href="portfolio.html">Porfolio |</a>
+				<a href="contact.html">Contact</a>
+			</section>
+		</div>
+	</header>
+<div id="content">
+	<body>
+	<section id="container">
+  		<form action="/action_page.php">
+
+    	<label for="fname">Name</label>
+    	<input type="text" id="fname" name="firstname" placeholder="John Smith">
+
+    	<label for="email">Email Address</label>
+    	<input type="text" id="email" name="email_address" placeholder="example@gmail.com">
+
+    	<label for="message">Message</label>
+    	<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+    	<input type="submit" value="Submit">
+
+  		</form>
 	</section>
-</body>
+		<section id="connect">
+			<h3>Connect with Me</h3>
+			<hr>
+			<a href="https://github.com/alil0rphan" target="_blank"><img src="assets/images/Github-icon.png" height="50px" width="50px" id="icons"></a>
+			<a href="https://www.linkedin.com/in/john-bendfeldt-b32736130/" target="_blank"><img src="assets/images/linkedin-icon.png" height="50px" width="50px" id="icons"></a>
+			<a href="http://stackoverflow.com/users/7700030/john-bendfeldt" target="_blank"><img src="assets/images/stackoverflow-icon.png" height="50px" width="50px" id="icons"></a>
+		</section>
+	</body>
+</div>
 <footer>
 	© Copywrite 2017 John Bendfeldt
 </footer>
