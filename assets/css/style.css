@@ -64,8 +64,10 @@ hr {
 	color: #DDDDDD;
 }
 #face {
-	float: left; 
-	margin: 4px 10px 0px 0px; 
+	float: left;
+	display: inline-block;
+	margin-top: 25px; 
+	margin-right: 15px;
 }
 #connect {
 	width: 210px;
@@ -77,9 +79,13 @@ hr {
 #icons {
 	display: inline-block;
 	margin: 0px auto;
+	padding-right: 15px;
 }
 #icons:hover {
-	box-shadow: 4px 4px 2px #4AAAA5;
+	box-shadow: -4px -4px 2px #4AAAA5;
+}
+#cats {
+	padding: 25px 25px 10px 0px;
 }
 #banner {
 	width: 960px;
