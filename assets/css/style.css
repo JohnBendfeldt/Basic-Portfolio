@@ -1,5 +1,16 @@
 h1 {
 	background-color: #4AAAA5;
-	display: block;
+	display: inline-block;
 	padding: 10px 20px 10px 20px;
+	margin: 0px;
+	font-family: "Georgia", Times, "Times New Roman", serif;
+}
+header {
+	border-bottom: solid 2px #cccccc;
+}
+#connect {
+	width: 20%;
+	display: inline-block;
+	border: solid 2px #cccccc;
+	padding: 15px 10px 15px 10px;
 }
