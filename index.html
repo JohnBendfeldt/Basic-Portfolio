@@ -5,7 +5,7 @@
 	<title>Basic-Portfolio Index</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
+<div id="main-menu">
 	<header>
 		<div class="banner">
 			<h1>John Bendfeldt</h1>
@@ -17,6 +17,7 @@
 			</div>
 		</div>
 	</header>
+</div>
 <body>
 <!-- Larger content box -->
 	<div class="content">
@@ -25,7 +26,7 @@
 			<br>
 			<img src="assets/images/myface.jpg" id="face">
 			<p>I spent over 5 years in management with Domino's. I have experience managing a staff of up to 30 team members. I helped maintain 5 star operations while marketing to maintain consistent sales growth. I am now enrolled in the Full-Stack Coding Boot Camp at UT Austin. I enjoy customer service and working with a team. I am also proficient with Microsoft office and basic Web development.</p>
-			<p>I was born in Tanzania when my family was working overseas. We moved back to the States when I was almost 6 years old. I lived in Virginia until 2 years ago when my girlfriend, Andi, and I moved her to Austin, TX. We were drawn to the warm weather and the city.</p>
+			<p>I was born in Tanzania when my family was working overseas. We moved back to the States when I was almost 6 years old. I lived in Virginia until 2 years ago when my lovely wife, Andi, and I moved here to Austin, TX. We were drawn to the warm weather and the city.</p>
 		</section>
 <!-- Connect with me box -->
 		<section class="connect">
@@ -40,3 +41,11 @@
 <footer>
 	© Copywrite 2017 John Bendfeldt
 </footer>
+<!-- makes the header transparent on scroll -->
+<script type="text/javascript">
+	window.addEventListener('scroll', function () {
+  	document.body.classList[
+    window.scrollY > 20 ? 'add': 'remove'
+  ]('scrolled');
+});
+</script>

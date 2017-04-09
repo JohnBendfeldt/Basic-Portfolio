@@ -5,7 +5,7 @@
 	<title>Basic-Portfolio Index</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
+<div id="main-menu">
 	<header>
 		<div class="banner">
 			<h1>John Bendfeldt</h1>
@@ -17,6 +17,7 @@
 			</div>
 		</div>
 	</header>
+</div>
 <body>
 	<div class="content">
 <!-- Big content box in middle	-->
@@ -58,3 +59,11 @@
 <footer>
 	© Copywrite 2017 John Bendfeldt
 </footer>
+<!-- makes the header transparent on scroll -->
+<script type="text/javascript">
+	window.addEventListener('scroll', function () {
+  	document.body.classList[
+    window.scrollY > 20 ? 'add': 'remove'
+  ]('scrolled');
+});
+</script>
