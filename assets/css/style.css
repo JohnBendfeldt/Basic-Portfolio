@@ -38,10 +38,11 @@ header {
 /* Navigational link parameters established */
 .link-box {
 	height: 20px;
+	width: 250px;
 	top: 10px;
-	right: 150px;
-	display: inline-block;
-	position: fixed;
+	right: 200px;
+	display: inline;
+	position: absolute;
 }
 /* Establishes main content parameters (container and connect blocks) */
 .content {
@@ -72,12 +73,12 @@ h2,
 h3 {
 	color: #4AAAA5;
 	font-family: "Georgia", Times, "Times New Roman", serif;
+	border-bottom: solid 2px #dddddd;
+	padding-bottom: 20px;
+	margin:  0px auto;
 }
 p {
 	line-height: 2.5;
-}
-hr {
-	color: #DDDDDD;
 }
 /* My picture on the index file */
 #face {
