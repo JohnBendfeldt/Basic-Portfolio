@@ -63,10 +63,10 @@ body.scrolled #main-menu:hover {
 }
 /* Establish main unique block on each page */
 .container {
-	width: 550px;
+	width: 590px;
 	border: solid 2px #dddddd;
 	float: left;
-	margin: 115px 30px 200px 0px;
+	margin: 115px 0px 200px 0px;
 	padding: 30px;
 }
 /* Link attributes including hover */
@@ -113,7 +113,7 @@ p {
 }
 /* Connections box parameters with icons */
 .connect {
-	width: 240px;
+	width: 210px;
 	border: solid 2px #dddddd;
 	float: right;
 	margin-top: 115px;
@@ -122,7 +122,7 @@ p {
 /* Establish icon aesthetics and behaviors with hover features */
 .icons {
 	display: inline-block;
-	margin: 0px 8px 30px 8px;
+	margin: 0px 5px 30px 0px;
 	width: 60px;
 	height: 60px;
 }
