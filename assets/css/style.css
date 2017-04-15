@@ -65,12 +65,13 @@ body.scrolled #main-menu:hover {
 	position: absolute;
 }
 /* Establishes main content parameters (container and connect blocks) */
-.content {
-	width: 960px;
+.container {
+	width: 100%;
+	max-width: 960px;
 	margin: 0px auto;
 }
 /* Establish main unique block on each page */
-.container {
+.content {
 	width: 590px;
 	border: solid 2px #dddddd;
 	float: left;
@@ -221,22 +222,4 @@ label {
 }
 script {
 	z-index: 995;
-}
-@media screen and (max-width: 980px) {
-	body {
-	max-width: 980px;
-	}
-}
-@media screen and (max-width: 768px) {
-	body {
-	max-width: 768px;
-		}
-}
-@media screen and (max-width: 640px) {
-	body {
-		max-width: 640px;
-	}
-	header {
-		position: static;
-	}
 }
